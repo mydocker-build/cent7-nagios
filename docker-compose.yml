@@ -1,0 +1,8 @@
+nagios:
+  image: "cent7-nagios4.x:v1.0.0"
+  ports:
+    - "8225:25"
+    - "8280:80"
+#  volumes:
+#    - ./conf.d/htpasswd.users:/usr/local/nagios/etc/htpasswd.users
+#    - /tmp:/tmp
